@@ -1,0 +1,38 @@
+{
+    "name": "onlinemodules",
+    "version": "1.0.0",
+    "description": "OnlineModules",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack --mode=development",
+        "serve": "webpack serve --mode=development",
+        "build": "webpack --mode=production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AllSee1ng/OnlineModules.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AllSee1ng/OnlineModules/issues"
+    },
+    "homepage": "https://github.com/AllSee1ng/OnlineModules#readme",
+    "dependencies": {
+        "-": "^0.0.1",
+        "webpack": "^5.52.0"
+    },
+    "devDependencies": {
+        "css-loader": "^6.2.0",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.3.2",
+        "img-loader": "^4.0.0",
+        "img-optimize-loader": "^1.0.7",
+        "mini-css-extract-plugin": "^2.2.2",
+        "sass": "^1.39.0",
+        "sass-loader": "^12.1.0",
+        "style-loader": "^3.2.1",
+        "webpack-cli": "^4.8.0",
+        "webpack-dev-server": "^4.1.0"
+    }
+}
